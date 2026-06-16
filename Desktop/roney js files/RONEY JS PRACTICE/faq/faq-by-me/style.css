@@ -16,7 +16,7 @@ body{
 
 .banner img{
     width: 200%;
-    height: 350px;
+    height: 29.875rem;
     margin-left: -50%;
 }
 
@@ -53,7 +53,7 @@ body{
 
 .faqhead h3{
     font-size: 50px;
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .faq1{

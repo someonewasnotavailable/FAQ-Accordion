@@ -1,15 +1,12 @@
 'use script';
 
-const drop1 = document.getElementById('dropdown12');
-const plus1img = document.getElementById('plus1img');
-const minus1mg = document.getElementById('minus1img');
 const faq1 = document.querySelector(".faq1");
 const faq1h3 = document.getElementById('faq1h3');
 const faq2 = document.querySelector(".faq2");
 const faq3 = document.querySelector(".faq3");
 const faq4 = document.querySelector(".faq4");
 
-neat =  () => {
+let neat = () => {
     faq2.classList.remove("active");
     faq3.classList.remove("active");
     faq4.classList.remove("active");
@@ -17,21 +14,21 @@ neat =  () => {
 }
 
 
-neat2 = () => {
+let neat2 = () => {
     faq1.classList.remove("active");
     faq3.classList.remove("active");
     faq4.classList.remove("active");
     faq2.classList.toggle("active");
 }
 
-neat3 = () => {
+let neat3 = () => {
     faq1.classList.remove("active");
     faq2.classList.remove("active");
     faq4.classList.remove("active");
     faq3.classList.toggle("active");
 }
 
-neat4 = () => {
+let neat4 = () => {
     faq1.classList.remove("active");
     faq2.classList.remove("active");
     faq3.classList.remove("active");
