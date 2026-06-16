@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+
+body{
+    background-color: rgb(236,224,246);
+    position: relative;
+}
+
+.banner{
+    overflow: hidden;
+}
+
+.banner img{
+    width: 200%;
+    height: 350px;
+    margin-left: -50%;
+}
+
+.faq{
+    position: absolute;
+    background-color: white;
+    left: 535px;
+    width: 370px;
+    height: 400px;
+    top: 200px;
+    border-radius: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.faq::-webkit-scrollbar-button{
+    width: 1px;
+}
+
+.faqhead{
+    width: 200px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.faqhead img{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.faqhead h3{
+    font-size: 50px;
+    font-family: Arial;
+}
+
+.faq1{
+    display: flex;
+    width: 370px;
+    margin-bottom: 20px;
+    transition: all .3s linear;
+    /* z-index: 1; */
+}
+
+.faq1.active{
+    margin-bottom: 100px;
+}
+
+.faq1.active + .dropdown1{
+    top: 175px;
+    /* z-index: 2; */
+    font-size: 12px;
+}
+
+.faq1 h3{
+    margin-top: 2px;
+    font-size: 12px;
+    margin-right: 200px;
+    margin-left: 30px;
+    font-family: Arial;
+    width: 280px;
+}
+
+.faq1 h3:hover{
+color: rgb(144,48,207);
+cursor: pointer;
+}
+
+.faq1 img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.dropdown1{
+    font-family: Arial;
+    font-size: 0px;
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: grey;
+    width: 270px;
+    position: absolute;
+    /* border: 1px solid black; */
+    /* z-index: 2; */
+}
+
+/* .dropdown1:active{
+    height: 70px;
+    border: 1px solid black;
+} */
+
+
+/* .dropdown1:active #dropdown12{
+    color: red;
+    top: 10px;
+} */
+
+.faq2{
+    display: flex;
+    width: 370px;
+    margin-bottom: 20px;
+    transition: all .3s linear;  
+}
+
+.faq2.active{
+    margin-bottom: 130px;
+}
+
+.faq2.active + .dropdown2{
+    top: 205px;
+    z-index: 2;
+    font-size: 12px;
+}
+
+.faq2 h3{
+    margin-top: 2px;
+    font-size: 12px;
+    margin-right: 200px;
+    margin-left: 30px;
+    font-family: Arial;
+    width: 280px;
+}
+
+.faq2 h3:hover{
+    color: rgb(144,48,207);
+    cursor: pointer;
+}
+
+.faq2 img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.dropdown2{
+    font-family: Arial;
+    font-size: 0px;
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: grey;
+    width: 270px;
+    position: absolute;
+    /* border: 1px solid black; */
+    z-index: 2;
+}
+
+.faq3{
+    display: flex;
+    width: 370px;
+    margin-bottom: 20px;
+    transition: all .3s linear;
+}
+
+.faq3.active{
+    margin-bottom: 70px;
+}
+
+.faq3.active + .dropdown3{
+    top: 265px;
+    font-size: 12px;
+}
+
+.faq3 h3{
+    margin-top: 2px;
+    font-size: 12px;
+    margin-right: 200px;
+    margin-left: 30px;
+    font-family: Arial;
+    width: 280px;
+}
+
+.faq3 h3:hover{
+    color: rgb(144,48,207);
+    cursor: pointer;
+}
+
+.faq3 img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.dropdown3{
+    font-family: Arial;
+    font-size: 0px;
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: grey;
+    width: 270px;
+    position: absolute;
+}
+
+.faq4{
+    display: flex;
+    width: 370px;
+    margin-bottom: 20px;
+    transition: all .3s linear;
+}
+
+.faq4.active{
+    margin-bottom: 70px;
+}
+
+.faq4.active + .dropdown4{
+    font-size: 12px;
+    top: 300px;
+}
+
+.faq4 h3{
+    margin-top: 2px;
+    font-size: 12px;
+    margin-right: 200px;
+    margin-left: 28px;
+    font-family: Arial;
+    width: 280px;
+}
+
+.faq4 h3:hover{
+    color: rgb(144,48,207);
+    cursor: pointer;
+}
+
+.faq4 img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.dropdown4{
+    font-family: Arial;
+    font-size: 0px;
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: grey;
+    width: 270px;
+    position: absolute;
+}
+
+.plus{
+display: block;
+}
+
+.minus{
+    display: none;
+}
